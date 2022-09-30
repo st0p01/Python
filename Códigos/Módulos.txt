@@ -1,0 +1,31 @@
+                                Módulos
+_____________________________________________________________________________
+Um módulo é um arquivo contendo definições e comandos em Python para serem 
+usados em outros programas em Python. Há diversos módulos do Python que fazem 
+parte da biblioteca padrão.
+
+                               Como usar
+
+Para usar basta colocar um import no começo do código junto com o nome da 
+bliblioteca .
+
+Quando você importa uma bliblioteca você está importando todas as funções
+dele, então caso você queira importar uma ou algumas funções é
+só você escrever o código abaixo:
+
+from (bliclioteca) import (função da bliblioteca),(outra função da 
+bliblioteca)
+
+tudo isso no ínicio do código python.
+
+Digamos que você tenha tido usado a bliblioteca math e você quer usar uma
+das funções... oque você faz? Para usar essa bliblioteca ou 
+qualquer outra é só você dentro da váriavel colocar o nome da bliblioteca
+junto com um ponto assim: math. () , e ai vai aparecer as opções para usar a 
+bliblioteca.
+
+Só que se você importar só uma função da bliblioteca não é necessario 
+colocar a "bliblioteca.()" só a função junto com os colchetes. 
+
+E por último você pode ver várias blibliotecas no python.org
+_____________________________________________________________________________

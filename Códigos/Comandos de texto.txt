@@ -1,0 +1,131 @@
+                            Comandos de texto
+_____________________________________________________________________________
+print('') usado para fazer mensagens aparecer na tela.
+Caso queira usar o print para mostrar um número use print("78") e para
+fazer conta use print(7+8)
+
+                             Tipos de print
+
+                            VÁRIAVEL E INPUT
+                                   |
+                     nome = input('Qual é seu nome? ')
+                     print(f'Seu nome é {nome}')
+                                   |
+O "nome =" é a declaração de uma váriavel chamada nome, a váriavel recebe o
+input, o input vai mostrar a mensagem na tela de modo que o usuário consiga
+responder.A resposta que é a váriavel é armazenada e usada depois com o 
+format.
+_____________________________________________________________________________
+                                 FORMAT
+O format serve para mostrar uma váriavel sem ter que colocar uma virgula.
+ 
+                               Como usar
+
+Para usar basta coloar um (F) dentro dos colchetes, antes das aspas simples
+e colocar a váriavel dentro de {}. Exemplo:
+
+s = 88
+Print(f'O valor de s é {s}')
+           |
+A váriavel 's' recebe 88, e o (format/f) mostra o valor do mesmo.
+
+
+                                   {}
+No format a gente sabe que essa mascara serve para colocar a váriavel que vai
+ser mostrada . Mas tem como configurar o jeito que essa váriavel vai ser
+mostrada, por exemplo:
+
+:(número) = mostra a váriavel na quantidade de caracteres que você configurar
+
+> = alinhamento para a direita
+
+< = alinhamento para a esquerda
+
+^ = centralização
+
+. = caracteres pulados
+
+f/i/b/s = tipos primitivos (coloque antes do número configurado de caracteres
+pulados ou outros)
+
+Qualquer cinal antes do circunflexo ou de alinhamento é mostrado caso o 
+número de caracteres for muito grande.
+_____________________________________________________________________________
+                            Transformação de tipos
+Bom... a gente já sabe como converter uma váriavel com outro tipo, mas...
+como faz para mostrar o tipo da váriavel na tela? Ou até mesmo mostrar 
+vários tipos de uma frase ou número... bem para isso temos os :
+
+                                  type()
+Dentro do colchete do type é colocado a váriavel e assim mostra o tipo do 
+mesmo na tela se ele é : string , boolean , float etc.
+
+                                váriavel.is() 
+Para usar você tem que colocar o nome da váriavel '.is' com colchetes vazios
+e esse comandos mostra várias coisas da váriavel na tela, se ela é feita só 
+de letras,só de maiúsculas, se é um número e etc.                             
+_____________________________________________________________________________
+                                Quebras de linha
+Para quebrar uma linha é simples use \n onde você que quebrar e o end=" "
+para desquebrar ,juntar uma linha.
+_____________________________________________________________________________
+                               Manipulando texto
+
+Quando uma frase é colocada no python, o python lê como string mas
+quando a frase é colocada o python coloca esses dados na memoria do 
+computador só que ele não coloca os dados inteiros , ele coloca cada
+caractere com um espaço, e cada espaço tem uma letra , as letras vão até
+o número de caracteres que tem.
+
+                                  Fatiamento
+C u r s o      e m      v  i  d  e  o       p  y  t  h  o  n
+| | | | |  |   | |   |  |  |  |  |  |   |   |  |  |  |  |  |	 
+0 1 2 3 4  5   6 7   8  9 10  11 12 13  14  15 16 17 18 19 20
+
+
+frase=[9] = só vai conseguir identificar o caractere 9 "V"
+frase=[9:13] = começa no 9 e vai até o 13 mas o 13 vai ser excluido "Vide"
+frase=[9:21] = começa no 9 e vai até o 21 , como não tem 21 ele vai ser
+desconsiderado "video python"
+frase[9:21:2] = começa no 9 para no 21 e vai pular duas casa "Vdopto"
+frase[:5] = ele vai começar no inicio até a letra 4 "Curso"
+frase[15:] = do 15 até o final "Python"
+frase[9::3] = vai começar no 9 e vai até o final pulando 3 casas "Veph"
+   
+                                   Análise
+
+len(frase) = (len significa comprimento)mosta quantos caracteres tem uma
+frase
+frase.count('o') = conta quantas vezes o caractere especificado aparece
+frase.count('o',0,13) = (contagem com fatiamento) mostra quantos 'o'
+aparece entre 0 e 13
+frase.find('deo') = onde começou o 'deo'
+frase.find('Android') = ele retorna o valor -1
+'Curso' in frase = dependendo da palavra que você vai colocar dentro das 
+aspas ele vai responder (true) e (false)
+
+                                 Transformação
+
+frase.replace('Python','Android') = ele procura a palavra 'Python' e vai 
+substituir por 'Android'
+frase.upper() = transforma a frase em maiúscula
+frase.lower() = transforma a frase em minusculas
+frase.capitalize() = tranforma todos os caracteres em minusculas e só o
+primeiro caracteres fica em maiúscula
+frase.title() = ele analisa quantas palavras tem essa string e vai fazer o
+capitalize palavra por palavra (todos caracteres do começo de cada palavra
+vai ficar em maiúsculas)
+frase.strip() = remove todos os espaços inuteis do começo e do final da 
+frase
+frase.rstrip() = só os espaços do lado direito são removidos 
+frase.lstrip() = só os espaços do lado esquerdo são removidos
+
+                                    Divisão
+
+frase.split() = ele vai pegar cada espaço e vai dividir ou seja cada 
+palavra vai começar do 0 até o número de caracteres que tem
+
+                                    Junção
+'-'.join(frase) = com a configuração de sima, o join vai juntar todos os
+elementos de frase e vai usar esse separador (-) "curso-em-video-python"
+_____________________________________________________________________________

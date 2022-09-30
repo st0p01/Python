@@ -1,0 +1,36 @@
+                               Cores no terminal
+_____________________________________________________________________________
+Sempre que você quiser representar uma cor em python comece com \033[m, 
+e entre esse [ e m você pode colocar até 3 códigos :
+
+1-Style: código de comportamento, em seguida coloque(;) e vai colocar o 
+segundo código.
+
+2-Text: cor do texto
+
+3-Back: cor de fundo
+
+/033[0;33;44m
+
+Entendo o código:
+
+Style    Text    Back
+  0       30      40
+  1       31      41
+  4       32      42
+  7       33      43
+          34      44
+          35      45
+          36      46
+          37      47
+
+Style: O '0' significa , estilo nenhum, o '1' coloca em negrito , o '4' 
+colocaca em sublinahdo e o '7' e inverter as configurações.
+
+Text: '30' branco, '31' vermelho, '32' verde, '33' amarelo, '34' azul, '35'
+roxo, '36' ciano, '37' cinza
+
+Back: '40' branco, '41' vermelho, '42' verde, '43' amarelo, '44' azul, '45'
+roxo, '46' ciano, '47' cinza
+
+_____________________________________________________________________________

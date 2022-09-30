@@ -1,0 +1,43 @@
+                                   Condições
+_____________________________________________________________________________
+                                   Condição
+
+if : Utilizamos o comando if para verificar uma expressão e executar um 
+bloco de código caso a condição definida seja verdadeira.(bloco true))
+
+elif: O comando elif é utilizado quando queremos realizar a verificação de 
+outra expressão caso a primeira validação seja falsa e tenha que usar 
+algo a mais que o else.
+
+else: O comando else é utilizado para executar um bloco de código caso o 
+resultado a condição seja falsa.(bloco false)
+
+                                    Exemplo
+
+temp = int(input('Quantos anos tem seu carro'))
+
+if tempo <=3:
+   print('carro novo')
+else:
+   print('carro velho')
+print('--fim--')
+
+simplificada:
+
+print('carro novo' if tempo <=3 else 'carro velho')
+
+
+Exemplo 2:
+
+if carro.esquerda():
+   bloco 1
+elif carro.direita():
+   bloco 2
+elif carro ré():
+   bloco 3
+else:
+   bloco 4
+
+O elif fica sempre entre o if e o else, usado para caso tenha mais de 2 
+soluções no código...
+_____________________________________________________________________________

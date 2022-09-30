@@ -1,0 +1,21 @@
+                               Tipos primitivos
+_____________________________________________________________________________
+                                    Int
+                                     |
+São números de valor inteiro, sem a virgula, por exemplo : 30, 40, 100, 99999 
+, 0, -1, -888 e etc
+
+                                   Float
+                                     |
+São números quebrados que tem virgula por exemplo: 4.5, 0.076, -15.223, 
+-19.0, 18.9 e etc
+
+                                    Bool
+                                     |
+O valor Booleano só aceita dois valores que são : true e False
+
+                                    Str
+                                     |
+O valor de str só aceita valores com '' seja número ou letras por exemplo:
+'Oi', '7', 'Olá', '9.5', '' e etc
+_____________________________________________________________________________
