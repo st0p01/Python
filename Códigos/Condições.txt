@@ -41,3 +41,33 @@ else:
 O elif fica sempre entre o if e o else, usado para caso tenha mais de 2 
 soluções no código...
 _____________________________________________________________________________
+                           Estrutura de repetição
+
+O for é utilizado para percorrer ou iterar sobre uma sequência de dados 
+(seja esse uma lista, uma tupla, uma string), executando um conjunto de 
+instruções em cada item.
+
+Exemplo: 
+
+for (o valor que você quiser) in range(váriaveis , strings, numeros etc)
+ print('Olá Mundo')
+
+O for(laço) vai mandar que o seu valor (c, x etc) "no" intervalo especificado
+tenha determinada repetição
+
+Simplificado:
+
+laço x no intervalo(0,3)
+ print('Olá Mundo')
+
+Resultado:
+
+Olá Mundo
+Olá Mundo
+Olá Mundo
+
+
+
+Dicas: -1 no final (0,3, -1) enumera a lista de trás para frente.
+       Como o python tem uma contagem diferente, caso você queira usar números
+específicos coloque +1 ou (váriavel+1)
